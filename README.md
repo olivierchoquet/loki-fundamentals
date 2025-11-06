@@ -54,6 +54,8 @@ You can query logs using Grafana’s **Explore** feature at [http://localhost:30
    {container="greenhouse-main_app-1"} |= "ERROR"
    ```
 
+**USE DRILLDOW to view container services and logs !**
+
 For more advanced queries and troubleshooting, refer to the full documentation.
 
 ## Contributing
