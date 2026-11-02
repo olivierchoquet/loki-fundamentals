@@ -51,26 +51,11 @@ You can query logs using Grafana’s **Explore** feature at [http://localhost:30
 2. Select the Loki data source.
 3. Use LogQL queries, e.g.,:
    ```logql
-   {container="greenhouse-main_app-1"} |= "ERROR"
+   {container="greenhouse-user_service-1"} |= "ERROR"
    ```
 
 **USE DRILLDOW to view container services and logs !**
 
 For more advanced queries and troubleshooting, refer to the full documentation.
-
-## Contributing
-
-Contributions are welcome! To contribute:
-1. Fork the repository.
-2. Create a new branch (`feature-branch-name`).
-3. Commit your changes.
-4. Open a pull request.
-
-## Issues
-
-If you encounter any problems, please open an issue in this repository with:
-- A clear description of the problem.
-- Steps to reproduce the issue.
-- Logs or error messages if available.
 
 
