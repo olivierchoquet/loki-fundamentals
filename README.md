@@ -44,6 +44,13 @@ To test log collection, deploy the Carnivorous Greenhouse application:
 
 You can then interact with the sample app at [http://localhost:5005](http://localhost:5005) to generate logs.
 
+## View containers Logs (all)
+
+You can view all logs using Grafana’s **Explore** feature at [http://localhost:3000](http://localhost:3000):
+1. Open **Explore**.
+2. Select the Loki data source.
+3. Use label browser
+
 ## Querying Logs
 
 You can query logs using Grafana’s **Explore** feature at [http://localhost:3000](http://localhost:3000):
